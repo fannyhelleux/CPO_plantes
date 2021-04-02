@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
 
+
         Spinner monSpinner = (Spinner) findViewById(R.id.spinner_michel);
         ArrayAdapter<CharSequence> monAdapter =   ArrayAdapter.createFromResource(this,R.array.tab_michel, android.R.layout.simple_spinner_item);
         monAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
