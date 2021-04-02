@@ -35,7 +35,8 @@
     <Spinner
         android:id="@+id/spinner_michel"
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
         android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="@+id/nav_host_fragment"
